@@ -1,6 +1,6 @@
 {
   "name": "stitches-purge-utils",
-  "version": "0.0.4",
+  "version": "0.0.7",
   "description": "A tool for purging Stitches utils",
   "bin": "lib/index.js",
   "keywords": ["stitches", "css-in-js"],

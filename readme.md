@@ -4,6 +4,7 @@
 
 This package is in early development so some features are missing, but it should be already useable. Do not use in production without proper testing.
 
+[See usage example](https://github.com/orenelbaum/stitches-purge-utils-example)
 
 ## Usage
 
@@ -68,7 +69,7 @@ export default defineConfig(
 Add this script to your `package.json`
 
 ```bash
-"stitches:purge-utils": "stitches-purge-utils --configuredStitchesPath ~stitches --utilsInputDir ./src/stitches-utils --utilsOutputDir ./stitches/purged-utils"
+"stitches:purge-utils": "stitches-purge-utils --configuredStitchesPath ~stitches --srcDir ./src --utilsInputDir ./src/stitches-utils --utilsOutputDir ./stitches/purged-utils"
 ```
 
 Add this to your `tsconfig.json`
@@ -90,6 +91,8 @@ In both the vite config and the `package.json` script:
 - Replace `"../src/example/stitches"` with the file that export the configured `css`, `globalCss` and `styled` (described in step 4)
 
 - Replace `"~stitches"` with the alias for this file (described in step 6).
+
+- Replace `"./src" with the source directory.
 
 - Replace `"./src/stitches-utils"` with the folder with your unpurged utils (described in step 1).
 
