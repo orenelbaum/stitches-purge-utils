@@ -86,7 +86,6 @@ Add this to your `tsconfig.json`
 }
 ```
 
-In both the vite config and the `package.json` script:
 
 - Replace `"../src/example/stitches"` with the file that export the configured `css`, `globalCss` and `styled` (described in step 4)
 
