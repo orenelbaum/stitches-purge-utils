@@ -91,7 +91,7 @@ Add this to your `tsconfig.json`
 
 - Replace `"~stitches"` with the alias for this file (described in step 6).
 
-- Replace `"./src" with the source directory.
+- Replace `"./src"` with the source directory.
 
 - Replace `"./src/stitches-utils"` with the folder with your unpurged utils (described in step 1).
 
