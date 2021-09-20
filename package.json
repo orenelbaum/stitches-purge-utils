@@ -1,0 +1,23 @@
+{
+  "name": "stitches-purge-utils",
+  "version": "0.0.4",
+  "description": "A tool for purging Stitches utils",
+  "bin": "lib/index.js",
+  "keywords": ["stitches", "css-in-js"],
+  "author": "Oren Elbaum",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-syntax-typescript": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@types/babel__core": "^7.1.16",
+    "@types/node": "^16.9.2",
+    "command-line-args": "^5.2.0"
+  },
+  "repository": {
+    "url": "https://github.com/orenelbaum/stitches-purge-utils.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/orenelbaum/stitches-purge-utils"
+}
